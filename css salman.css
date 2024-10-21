@@ -1,0 +1,463 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header1 {
+    width: 100%;
+    display: flex;
+    background-color: salmon;
+    height: auto;
+    padding: 20px 0px;
+
+}
+.text {
+    color: white;
+    padding: 100px 0px 60px 170px;
+    margin-left: 30px;
+    margin-right: 25px;
+    width: 1060px;
+    height: 500px;
+    background-size: cover;
+    background-image: url(duduk.jpg);
+}
+.text h3{
+    font-size: 45px;
+    margin-top: 450px;
+    margin-left: -130px;
+}
+.alamat {
+    width: 100%;
+    float: left;
+    text-align: left;
+    text-align: center;
+    color: #fefefd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.alamat2 {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #fefefd;
+    text-align: right;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif\;
+}
+nav {
+    background-color: whitesmoke;
+    padding: 0px 0px;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.menu{
+    display: flex;
+    justify-content: right;
+    font-size: 1.2rem;
+    float: left;
+    margin-top: 30px;
+    width: 90%;
+    height: 30px;
+    position: relative;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+    position: relative;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 8px;
+    position: relative;
+}
+.menu ul li a:hover{
+    border-bottom: 3px solid yellow;
+    color: rgb(220, 188, 250);
+}
+
+.box {
+    text-align: center;
+    margin-top: 30px;
+    align-content: center;
+    cursor: pointer;
+}
+.boxkiri, .boxtengah, .boxkanan {
+    width: 290px;
+    height: 300px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float: left;
+}
+.boxkiri:hover, .boxtengah:hover, .boxkanan:hover{
+    background-color: gray;
+    color: white;
+}
+.box h3,p{
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+.sumber {
+    top: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+}
+.sumber h3{
+    color: rgb(236, 236, 141);
+    text-align: left;
+}
+.sumber h4{
+    color: black;
+    text-align: justify;
+}
+.sumber h1{
+    color: rgb(250, 114, 99);
+    text-align: left;
+    position: relative;
+}
+.sumber h1:after{
+    content: "";
+    display: block;
+    width: 750px;
+    height: 2px;
+    background: grey;
+    right: 0%;
+    position: absolute;
+}
+.text2 h2{
+    position: relative;
+}
+.text2 h2:after{
+    content: "";
+    display: block;
+    width: 700px;
+    height: 2px;
+    background: grey;
+    position: absolute;
+    right: 0;
+}
+footer {
+    background-color: salmon;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: -240%;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px 0;
+}
+.footer footer{
+    background-color: salmon;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 15px;
+}
+.footer2 footer{
+    background-color: salmon;
+    color: white;
+    position: absolute;
+    bottom: -100%;
+    text-align: center;
+    font-size: 15;
+}
+.footer3 footer{
+    background-color: salmon;
+    color: white;
+    position: absolute;
+    bottom: -60%;
+    text-align: center;
+    font-size: 15;
+}
+.footer4 footer{
+    background-color: salmon;
+    color: white;
+    position: absolute;
+    bottom: -180%;
+    text-align: center;
+    font-size: 15;
+}
+.footer5 footer{
+    background-color: salmon;
+    color: white;
+    position: absolute;
+    bottom: -30%;
+    text-align: center;
+    font-size: 15;
+}
+.footer6 footer{
+    background-color: salmon;
+    color: white;
+    position: absolute;
+    bottom: -30%;
+    text-align: center;
+    font-size: 15;
+}
+.footer7 footer{
+    background-color: salmon;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 15;
+}
+.footer8 footer{
+    background-color: salmon;
+    color: white;
+    position: absolute;
+    bottom: -10%;
+    text-align: center;
+    font-size: 15;
+}
+.teks2 {
+    padding: 150px 79px 90px 170px;
+    width: 1100px;
+    height: 445px;
+    background-size: cover;
+    background-image: url(aula.jpeg);
+}
+.teks2 h3{
+    font-size: 27px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 290px;
+    margin-left: -100px;
+}
+.teks2 h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: -100px;
+}
+.teks2 h2{
+    color: black;
+    margin-left: -100px;
+    margin-top: 180px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.teks2 h4{
+    color: grey;
+    margin-left: -100px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.intra h1{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 180);
+    border: 1px solid black;
+    margin-left: 40%;
+}
+.potoo, .poto2, .poto3 {
+    margin:  15px;
+    padding: 1em;
+}
+.potoo, .poto2, .poto3 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(16, 16, 112);
+    font-size: 20px;
+}
+
+.slider {
+    position: relative;
+    width: 55%;
+    overflow: hidden;
+}
+.images {
+    display: flex;
+    width: 100%;
+    margin-left: 50px;
+}
+.images img {
+    height: 400px;
+    width: 100%;
+    transition: all 0.15s ease;
+} 
+.images input{
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid black 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover {background: black;}
+#img1:checked ~ .m1{
+     margin-left: 0;
+}
+#img2:checked ~ .m2{
+    margin-left: -100%;
+}
+#img3:checked ~ .m3{
+    margin-left: -200%;
+}
+.kokuri {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+}
+.penjelasan1 {
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.kokuri1 {
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.kokuri1 img{
+    height: 180px;
+}
+.penjelasan2 h2{
+    margin: 8px;
+    float: right;
+    color: black;
+}
+.penjelasan2 p{
+    margin: 5px;
+    float: right;
+    text-align: right;
+}
+.eks {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+}
+.eks h3{
+    color: rgb(236, 236, 141);
+    text-align: left;
+}
+.eks h4{
+    color: grey;
+    text-align: justify;
+}
+.eks h1{
+    color: rgb(250, 114, 99);
+    text-align: left;
+}
+.ekstra {
+    margin: 20px;
+}
+.eks1, .eks2, .eks3, .eks4, .eks5, .eks6, .eks7, .eks8{
+    margin: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    opacity: 1;
+}
+.eks1:hover, .eks2:hover, .eks3:hover, .eks4:hover, .eks5:hover, .eks6:hover,.eks7:hover, .eks8:hover{
+    opacity: 0.5;
+}
+.visi{
+    margin-top: 20%;
+}
+.akademik {
+    background-color: rgb(187, 187, 221);
+    width: 600px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 5%;
+
+}
+.akademik h1{
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.akademik p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.akademik img{
+    width: 600px;
+    height: 350px;
+    margin: 15px;
+    margin-left: 590px;
+    margin-top: -30%;
+}
+.school img{
+    margin: 20px;
+    border: 3px solid grey;
+}
+.school h1{
+    margin-left: 30px;
+}
+.school h4{
+    width: 500px;
+    margin-left: 30px;
+    text-align: justify;
+}
+.kebiasaan img{
+    margin-left: 550px;
+    margin-top: -450px;
+}
+.footercontainer{
+    width: 100%;
+    padding: 50px 0px 0px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: salmon;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+}
+.socialicons a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.pintaq h1{
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+.pnjlsn h3{
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
